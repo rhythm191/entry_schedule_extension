@@ -1,0 +1,41 @@
+{
+  "name": "show_empty_room",
+  "version": "0.2.0",
+  "description": "add link to show empty room in cybozu office page",
+  "main": "index.js",
+  "scripts": {
+    "webpack": "webpack && gulp",
+    "watch": "gulp watch",
+    "build": "NODE_ENV=production webpack && gulp",
+    "clean": "rm -rf build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rhythm191/show_empty_room.git"
+  },
+  "author": "rhythm191",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/rhythm191/show_empty_room/issues"
+  },
+  "homepage": "https://github.com/rhythm191/show_empty_room#readme",
+  "dependencies": {
+    "jquery": "^3.2.1"
+  },
+  "babel": {
+    "presets": [
+      "es2015"
+    ]
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.2",
+    "babel-preset-es2015": "^6.24.1",
+    "extract-text-webpack-plugin": "^3.0.1",
+    "gulp": "^3.9.1",
+    "gulp-json-editor": "^2.2.1",
+    "gulp-load-plugins": "^1.5.0",
+    "webpack": "^3.6.0",
+    "webpack-stream": "^4.0.0"
+  }
+}
