@@ -1,0 +1,19 @@
+{
+  "manifest_version": 2,
+  "name": "Entry schedule extension",
+  "version": "0.1.0",
+  "description": "add biweek schedule function in cybozu office page",
+  "permissions": [
+    "tabs"
+  ],
+  "content_scripts": [
+    {
+      "matches": [
+        "https://cbasp8.air.ne.jp/*"
+      ],
+      "js": [
+        "content_scripts.js"
+      ]
+    }
+  ]
+}

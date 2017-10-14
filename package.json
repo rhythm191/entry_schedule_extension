@@ -1,27 +1,24 @@
 {
-  "name": "show_empty_room",
-  "version": "0.2.0",
-  "description": "add link to show empty room in cybozu office page",
+  "name": "entry_schedule_extension",
+  "version": "0.1.0",
+  "description": "add biweek schedule function in cybozu office page",
   "main": "index.js",
   "scripts": {
     "webpack": "webpack && gulp",
-    "watch": "gulp watch",
+    "watch": "webpack --watch",
     "build": "NODE_ENV=production webpack && gulp",
     "clean": "rm -rf build"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/rhythm191/show_empty_room.git"
+    "url": "git+https://github.com/rhythm191/entry_schedule_extension.git"
   },
   "author": "rhythm191",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/rhythm191/show_empty_room/issues"
+    "url": "https://github.com/rhythm191/entry_schedule_extension/issues"
   },
-  "homepage": "https://github.com/rhythm191/show_empty_room#readme",
-  "dependencies": {
-    "jquery": "^3.2.1"
-  },
+  "homepage": "https://github.com/rhythm191/entry_schedule_extension#readme",
   "babel": {
     "presets": [
       "es2015"
@@ -35,6 +32,8 @@
     "gulp": "^3.9.1",
     "gulp-json-editor": "^2.2.1",
     "gulp-load-plugins": "^1.5.0",
+    "jquery": "^3.2.1",
+    "moment": "^2.19.1",
     "webpack": "^3.6.0",
     "webpack-stream": "^4.0.0"
   }

@@ -21,7 +21,7 @@ gulp.task('manifest', () => {
     .pipe(gulp.dest('build'));
 });
 
-gulp.task('default', ['manifest', 'html', 'image'])
+gulp.task('default', ['manifest'])
 
 gulp.task('watch', function() {
   gulp.watch(['src/**/*.js'], ['webpack'])
