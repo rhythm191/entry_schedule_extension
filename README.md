@@ -3,6 +3,11 @@
 
 # インストール方法
 
+Chrome ウェブストアからインストールしてください。
+https://chrome.google.com/webstore/detail/entry-schedule-extension/lflgndoomnijngiadiefecmonpifnlbp?hl=ja
+
+または、次の方法を使ってください。
+
 1. この(https://github.com/rhythm191/entry_schedule_extension/releases) から生成されたentry_schedule_extension.crx.zipファイルをダウンロードする。
 2. zipファイルを解凍する。
 3. [chrome://extensions/](chrome://extensions/) を開く
