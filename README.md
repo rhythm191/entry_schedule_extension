@@ -1,4 +1,4 @@
-# show_empty_room
+# entry_schedule_extension
 サイボウズOfficeのスケジュール登録に隔週を追加するChrome拡張機能。
 
 # インストール方法
@@ -32,7 +32,7 @@ https://chrome.google.com/webstore/detail/entry-schedule-extension/lflgndoomnijn
 
 ## Contributing
 
-Bug reports and pull requests are welcome on GitHub at https://github.com/[USERNAME]/entry_schedule_extension. This project is intended to be a safe, welcoming space for collaboration, and contributors are expected to adhere to the [Contributor Covenant](http://contributor-covenant.org) code of conduct.
+Bug reports and pull requests are welcome on GitHub at https://github.com/rhythm191/entry_schedule_extension. This project is intended to be a safe, welcoming space for collaboration, and contributors are expected to adhere to the [Contributor Covenant](http://contributor-covenant.org) code of conduct.
 
 ## License
 
