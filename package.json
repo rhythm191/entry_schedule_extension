@@ -26,7 +26,7 @@
     "extract-text-webpack-plugin": "^3.0.2",
     "gulp": "^4.0.2",
     "gulp-json-editor": "^2.5.4",
-    "gulp-load-plugins": "^1.5.0",
+    "gulp-load-plugins": "^2.0.1",
     "jquery": "^3.2.1",
     "moment": "^2.19.1",
     "uglifyjs-webpack-plugin": "^2.2.0",
